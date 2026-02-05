@@ -16,11 +16,11 @@ Halaman portal pribadi modern yang dirancang dengan estetika **Glassmorphism** d
 
 ### 📱 Mobile (Android & iOS)
 * **Termux (Android)**:
-  1. Install Termux & jalankan `pkg install python`.
-  2. Berikan izin akses: `termux-setup-storage`.
-  3. Masuk ke folder: `cd /sdcard/Download/LynxTree`.
-  4. Jalankan server: `python -m http.server 8080`.
-  5. Akses di browser HP: `http://localhost:8080`.
+  1. Install Termux & jalankan ```pkg install python```.
+  2. Berikan izin akses: ```termux-setup-storage```.
+  3. Masuk ke folder: ```cd /sdcard/Download/LynxTree```.
+  4. Jalankan server: ```python -m http.server 8080```.
+  5. Akses di browser HP: ```http://localhost:8080```.
 * **Acode/Treedit (Android)**: Buka folder proyek dan tekan tombol **Play**.
 * **Koder (iOS)**: Import folder proyek dan gunakan fitur **Preview**.
 * **GitHub Pages**: Akses langsung melalui link deployment yang sudah aktif.
