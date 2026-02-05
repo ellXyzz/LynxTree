@@ -1,29 +1,32 @@
 # 🌊 LynxTree - Banyu Profile
 
-Selamat datang di repository resmi **LynxTree**. Ini adalah halaman portal pribadi yang dirancang dengan estetika modern, minimalis, dan futuristik untuk menampilkan identitas digital secara profesional.
+Halaman portal pribadi modern yang dirancang dengan estetika **Glassmorphism** dan latar belakang **Animated Gradient** dinamis untuk menampilkan identitas digital secara profesional.
 
 ## ✨ Fitur Unggulan
-* **Animated Gradient Background**: Latar belakang dinamis yang bergerak halus untuk kesan premium.
+* **Animated Gradient**: Latar belakang bergerak halus untuk kesan premium.
 * **Glassmorphism UI**: Desain tombol transparan dengan efek blur kaca (Backdrop Filter).
-* **Verified Identity**: Dilengkapi dengan lencana verifikasi untuk kredibilitas profil.
-* **Security Protected**: Sistem Anti-Inspect untuk memberikan perlindungan dasar pada kode sumber.
-* **Responsive Design**: Tampilan yang sempurna di perangkat mobile (HP) maupun desktop (PC).
+* **Security Protected**: Dilengkapi sistem Anti-Inspect untuk perlindungan dasar kode sumber.
+* **Responsive Design**: Tampilan optimal di perangkat Mobile (HP) maupun Desktop (PC).
 
-## 🛠️ Teknologi yang Digunakan
-* **HTML5**: Struktur konten web yang semantik.
-* **CSS3**: Animasi keyframes, variabel CSS, dan efek Glassmorphism.
-* **JavaScript (Vanilla)**: Logika perenderan data dinamis dan fitur keamanan.
+## 🚀 Cara Menjalankan (Run)
 
-## 🚀 Cara Instalasi & Penggunaan
-1.  **Clone Repository**:
-    ```bash
-    git clone [https://github.com/ellXyzz/LynxTree.git](https://github.com/ellXyzz/LynxTree.git)
-    ```
-2.  **Buka Halaman**:
-    Jalankan file `index.html` di browser pilihan Anda.
+### 💻 Desktop (Windows & Linux)
+* **Direct Open**: Klik kanan pada `index.html` > **Open with** > Browser pilihan Anda.
+* **Via Terminal**: Jalankan `python3 -m http.server 8000` lalu akses `http://localhost:8000`.
+
+### 📱 Mobile (Android & iOS)
+* **Termux (Android)**:
+  1. Install Termux & jalankan `pkg install python`.
+  2. Berikan izin akses: `termux-setup-storage`.
+  3. Masuk ke folder: `cd /sdcard/Download/LynxTree`.
+  4. Jalankan server: `python -m http.server 8080`.
+  5. Akses di browser HP: `http://localhost:8080`.
+* **Acode/Treedit (Android)**: Buka folder proyek dan tekan tombol **Play**.
+* **Koder (iOS)**: Import folder proyek dan gunakan fitur **Preview**.
+* **GitHub Pages**: Akses langsung melalui link deployment yang sudah aktif.
 
 ## ⚙️ Konfigurasi Data
-Untuk mengubah Nama, Bio, atau Link, Anda hanya perlu mengedit bagian `communityData` di dalam file `script.js`:
+Untuk mengubah Nama, Bio, atau Link, Anda hanya perlu mengedit variabel `communityData` di dalam file `script.js`:
 
 ```javascript
 const communityData = {
